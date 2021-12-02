@@ -115,7 +115,7 @@ ul{
     height: 100%;
 }
 
-.stats a{
+.stats li{
     height: 100%;
     float: left;
     padding: 0px 25px;
@@ -124,11 +124,11 @@ ul{
     
 }
 
-.stats a:last-child{
+.stats li:last-child{
     padding-right: 0;
 }
 
-.stats a li{
+.stats li{
     display: table-cell;
     height: 100%;
     font-weight: 700;
@@ -142,17 +142,17 @@ ul{
     margin-top: 5px;
 }
 
-.stats2 a{
+.stats2 li{
     height: 100%;
     float: left;
     padding: 0px 12px;
 }
 
-.stats2 a:last-child{
+.stats2 li:last-child{
     padding-right: 0;
 }
 
-.stats2 a li{
+.stats2 li{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -163,11 +163,11 @@ ul{
 }
 
 .likes{
-    padding-left:22px;
+    margin-left:20px;
 }
 
 .photos{
-    padding-left:32px;
+    margin-left:35px;
 }
 
 
