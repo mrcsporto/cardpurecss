@@ -110,6 +110,8 @@ hr {
     color:hsl(0, 0%, 59%);
     top: 10px;
     text-align: center;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 ul{
@@ -119,6 +121,10 @@ ul{
 .stats {
     float: left;
     height: 100%;
+    display: table-cell;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
 
 }
 
@@ -130,25 +136,27 @@ ul{
     margin-top: 15px;
     color: hsl(229, 23%, 23%);
     opacity: 90%;
-    
 }
 
 .stats li:last-child{
     padding-right: 0;
 }
 
-.stats li{
-    display: table-cell;
-    height: 100%;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
 
 .stats2 {
     float: left;
     height: 100%;
     margin-top: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:hsl(0, 0%, 59%);
+}
+
+.count-likes {
+    margin-left:5px;
 }
 
 .stats2 li{
@@ -161,18 +169,8 @@ ul{
     padding-right: 0;
 }
 
-.stats2 li{
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 1px;
-    color:hsl(0, 0%, 59%);
-}
-
 .likes{
-    margin-left:20px;
+    margin-left:25px;
 }
 
 .photos{
