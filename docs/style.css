@@ -85,6 +85,7 @@ body{
     padding: 15px;
     text-align: center;
     color: hsl(229, 23%, 23%);
+    opacity: 90%;
     
 }
 
@@ -94,6 +95,7 @@ body{
     color:hsl(0, 0%, 59%);
     left: 5px;
     color: hsl(229, 23%, 23%);
+    opacity: 90%;
     
 }
 
@@ -101,6 +103,7 @@ hr {
     height: 1px;
     background-color: hsl(0, 2%, 71%);
     border: none;
+    opacity: 50%;
 }
 
 .city{
@@ -126,6 +129,7 @@ ul{
     margin-bottom: 0px;
     margin-top: 15px;
     color: hsl(229, 23%, 23%);
+    opacity: 90%;
     
 }
 
