@@ -9,9 +9,11 @@ body{
 }
 
 @viewport{
-    zoom: 1.0;
-    max-width: 375px;
-    max-height: auto;
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
 }
 
 .attribution { 
