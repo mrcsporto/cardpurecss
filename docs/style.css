@@ -9,6 +9,11 @@ body{
     max-height: 100%;
 }
 
+@media screen and (min-width: 480px) {
+    body {
+        float: left;
+}
+
 .attribution { 
     font-size: 11px;
     width: 100%;
