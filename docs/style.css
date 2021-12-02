@@ -10,16 +10,18 @@ body{
 
 @viewport{
     zoom: 1.0;
-    width: fit-content;
+    max-width: 375px;
+    max-height: auto;
 }
 
 .attribution { 
     font-size: 11px;
     width: 100%;
     text-align: center;
-    margin-top: 600px;
-    position: static;
+    margin-top: 85vh;
+    position: relative;
 }
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
