@@ -1,0 +1,174 @@
+*{
+    font-family: 'Kumbh Sans'; 
+    list-style: none; 
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+    max-width: 1440px;
+    max-height: 100%;
+}
+
+.attribution { 
+    font-size: 11px;
+    width: 100%;
+	position: absolute;
+	bottom: 5%;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.bg-top{
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    z-index: -1;
+}
+
+.bg-bt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+
+.card{
+    width: 360px;
+	height: 400px;
+	border-radius: 20px;
+	background-color: white;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -200px;
+    position: absolute;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+  
+    
+}
+
+.clip-img{
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.user{
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin: -55px auto;
+    
+}
+
+.id p {
+    margin: 0;
+    padding: 2px;
+}
+
+.id{
+    position: relative;
+    top: 55px;
+}
+
+.id .name{
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    top: 5px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.id .age{
+    position: relative;
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+    left: 5px;
+    
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(0, 2%, 71%);
+    border: none;
+}
+
+.city{
+    color:hsl(0, 0%, 59%);
+    top: 10px;
+    text-align: center;
+}
+
+ul{
+ margin: 0;
+}
+
+.stats {
+    float: left;
+    height: 100%;
+}
+
+.stats a{
+    height: 100%;
+    float: left;
+    padding: 0px 25px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    
+}
+
+.stats a:last-child{
+    padding-right: 0;
+}
+
+.stats a li{
+    display: table-cell;
+    height: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.stats2 {
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.stats2 a{
+    height: 100%;
+    float: left;
+    padding: 0px 12px;
+}
+
+.stats2 a:last-child{
+    padding-right: 0;
+}
+
+.stats2 a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:hsl(0, 0%, 59%);
+}
+
+.likes{
+    padding-left:22px;
+}
+
+.photos{
+    padding-left:32px;
+}
+
+
+
