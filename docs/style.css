@@ -8,14 +8,6 @@ body{
     overflow: hidden;
 }
 
-@viewport{
-    width: device-width;
-    zoom: 1.1;
-    min-zoom: 0.4;
-    max-zoom: 2;
-    user-zoom: fixed;
-}
-
 .attribution { 
     font-size: 11px;
     width: 100%;
@@ -44,7 +36,7 @@ body{
 }
 
 .card{
-    width: 360px;
+    max-width: 360px;
 	height: 400px;
 	border-radius: 20px;
 	background-color: white;
@@ -53,9 +45,7 @@ body{
     margin-left: -180px;
     margin-top: -200px;
     position: absolute;
-    box-shadow: 0 5px 30px rgb(0 0 0 / 0.3)
-  
-    
+    box-shadow: 0 5px 30px rgb(0 0 0 / 0.3);
 }
 
 .clip-img{
