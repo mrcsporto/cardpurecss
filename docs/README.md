@@ -1,4 +1,3 @@
-# purecss
- Pure CSS and HTML challenge
- made by hand without any framework
- by Marcos Porto
+# Simple card
+Simple CSS-HTML challenge
+by Marcos Porto
