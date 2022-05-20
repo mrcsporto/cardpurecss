@@ -1,3 +1,3 @@
 # Simple card
-Simple CSS-HTML challenge
+HTML and CSS challenge
 by Marcos Porto
